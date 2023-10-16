@@ -11,6 +11,10 @@ const server = Bun.serve({
             return new Response("About me")
         }
 
+        if(url.pathname === '/greet'){
+            return new Response(Bun.file('./greet.txt'))
+        }
+
         //handle Error
         if(url.pathname === '/feed'){
             throw new Error('Could not fetch!')

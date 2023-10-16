@@ -1,4 +1,11 @@
 vagrant@kujiranode:~/BUN$ git init
 vagrant@kujiranode:~/BUN$ git add .
 vagrant@kujiranode:~/BUN$ git commit -am "bun-setup"
-git remote add origin https://github.com/poujoo/bun-setup.git
+vagrant@kujiranode:~/BUN$ git remote add origin https://github.com/poujoo/bun-setup.git
+
+/////////////////////////////
+#Change local branch from bottom left corner
+vagrant@kujiranode:~/BUN$ git add .
+vagrant@kujiranode:~/BUN$ git commit -am "bun-setup"
+vagrant@kujiranode:~/BUN$ git add .
+vagrant@kujiranode:~/BUN$ git push -u origin bun-server
