@@ -2,10 +2,18 @@
   "name": "bun",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "watch": "bun --watch index.ts",
+    "start": "bun run index.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/figlet": "^1.5.6",
+    "figlet": "^1.6.0"
   }
 }

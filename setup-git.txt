@@ -1,0 +1,4 @@
+vagrant@kujiranode:~/BUN$ git init
+vagrant@kujiranode:~/BUN$ git add .
+vagrant@kujiranode:~/BUN$ git commit -am "bun-setup"
+git remote add origin https://github.com/poujoo/bun-setup.git
